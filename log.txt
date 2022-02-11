@@ -1,0 +1,126 @@
+[2022-01-17 12:45:47,139 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [999197022]
+[2022-01-17 12:45:47,144 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:45:47,144 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:46:16,856 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [999197022]
+[2022-01-17 12:46:16,857 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:46:16,857 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:46:35,664 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [999197022]
+[2022-01-17 12:46:35,668 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:46:35,668 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:56:00,427 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [999197022]
+[2022-01-17 12:56:00,427 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:56:00,427 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:58:30,408 - /opt/virtualenvs/python3/lib/python3.8/site-packages/pyrogram/methods/utilities/idle.py - INFO] Stop signal received (SIGTERM). Exiting...
+[2022-01-17 12:58:44,049 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [999197022]
+[2022-01-17 12:58:44,050 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:58:44,050 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:59:12,556 - /opt/virtualenvs/python3/lib/python3.8/site-packages/pyrogram/methods/utilities/idle.py - INFO] Stop signal received (SIGTERM). Exiting...
+[2022-01-17 12:59:42,931 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [999197022]
+[2022-01-17 12:59:42,932 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 12:59:42,932 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:19:28,043 - /opt/virtualenvs/python3/lib/python3.8/site-packages/pyrogram/methods/utilities/idle.py - INFO] Stop signal received (SIGTERM). Exiting...
+[2022-01-17 13:19:56,343 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [999197022]
+[2022-01-17 13:19:56,343 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:19:56,343 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:24:29,639 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [999197022]
+[2022-01-17 13:24:29,641 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:24:29,641 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:28:47,546 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [999197022]
+[2022-01-17 13:28:47,546 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:28:47,547 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:28:48,396 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 13:28:48,414 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 13:28:51,030 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:28:51] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:30:30,270 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - []
+[2022-01-17 13:30:30,270 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:30:30,270 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:30:31,280 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 13:30:31,333 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 13:30:32,516 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:30:32] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:32:20,807 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [913846663, 1700962147, 983956963, 830785064, 1542508017, 927193767, 872830003, 846709496]
+[2022-01-17 13:32:20,816 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:32:20,820 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:32:21,579 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 13:32:21,581 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 13:32:22,753 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:32:22] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:32:28,400 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:32:28] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:32:29,051 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:32:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2022-01-17 13:34:00,456 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:34:00] "HEAD / HTTP/1.1" 200 -
+[2022-01-17 13:35:00,032 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [846709496, 927193767, 872830003, 913846663, 830785064, 1700962147, 983956963, 1542508017]
+[2022-01-17 13:35:00,032 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:35:00,033 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:35:01,051 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 13:35:01,051 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 13:35:02,234 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:35:02] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:35:52,442 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:35:52] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:39:13,316 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 13:39:13,319 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:39:13,326 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:39:15,662 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 13:39:15,671 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 13:39:16,316 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:39:16] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:39:20,464 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:39:20] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:44:20,333 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:44:20] "HEAD / HTTP/1.1" 200 -
+[2022-01-17 13:46:35,980 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 13:46:35,980 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:46:35,981 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:46:36,756 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 13:46:36,756 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 13:46:38,299 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:46:38] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:49:10,742 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 13:49:10,742 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:49:10,743 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:50:17,093 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 13:50:17,094 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:50:17,094 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:51:03,771 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 13:51:03,771 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:51:03,771 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:51:29,424 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 13:51:29,424 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:51:29,425 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:51:30,065 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 13:51:30,065 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 13:51:31,096 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:51:31] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:54:40,415 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:54:40] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:56:37,188 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 13:56:37,192 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:56:37,192 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:56:39,027 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 13:56:39,028 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 13:56:39,748 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 13:56:39] "GET / HTTP/1.1" 200 -
+[2022-01-17 13:59:46,265 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 13:59:46,266 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 13:59:46,266 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 14:00:38,273 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 14:00:38,273 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 14:00:38,274 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 14:00:39,533 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 14:00:39,536 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 14:00:40,504 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 14:00:40] "GET / HTTP/1.1" 200 -
+[2022-01-17 14:03:05,057 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 14:03:05,063 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 14:03:05,064 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 14:03:06,229 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 14:03:06,229 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 14:03:07,558 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 14:03:07] "GET / HTTP/1.1" 200 -
+[2022-01-17 14:05:00,237 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 14:05:00] "GET / HTTP/1.1" 200 -
+[2022-01-17 14:10:00,226 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 14:10:00] "HEAD / HTTP/1.1" 200 -
+[2022-01-17 14:11:31,558 - /opt/virtualenvs/python3/lib/python3.8/site-packages/pyrogram/methods/utilities/idle.py - INFO] Stop signal received (SIGTERM). Exiting...
+[2022-01-17 14:12:19,392 - /home/runner/msgcopybot/bot/__init__.py - INFO] Sudo users - [830785064, 872830003, 846709496, 927193767, 1542508017, 913846663, 983956963, 1700962147]
+[2022-01-17 14:12:19,396 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 14:12:19,396 - /home/runner/msgcopybot/bot/__init__.py - INFO] [123]
+[2022-01-17 14:12:20,905 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - WARNING]  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2022-01-17 14:12:20,905 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO]  * Running on http://172.18.0.64:8080/ (Press CTRL+C to quit)
+[2022-01-17 14:12:21,403 - /opt/virtualenvs/python3/lib/python3.8/site-packages/werkzeug/_internal.py - INFO] 172.18.0.1 - - [17/Jan/2022 14:12:21] "GET / HTTP/1.1" 200 -
