@@ -1,6 +1,5 @@
 import os
 import math
-import keep_alive
 from random import randint
 from time import sleep
 from pyrogram import filters
@@ -80,5 +79,4 @@ async def send(bot, msg):
                         text=f"{str(data3)}")
 
 
-keep_alive.keep_alive()
 app.run()
