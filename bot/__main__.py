@@ -1,14 +1,19 @@
 from math import trunc
-from random import randint
+import keep_alive
+from random import randint, choices
 from time import sleep
 from time import time
 from datetime import datetime, timedelta
 from pytz import timezone
 from pyrogram import filters
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from bot import sudo_users, app, uname
+import string
 
 
 IST = timezone('Asia/Kolkata')
+
+PROCESS = []
 
 def get_readable_time(seconds: int) -> str:
     result = ''
@@ -77,24 +82,47 @@ async def forward(client, message):
               msgx = await message.reply_text("Starting Copying")
               TTL_MSG = str(offset_id-limit+1)
               nz1 = datetime.now()
+              res = ''.join(choices(string.ascii_uppercase +
+                             string.digits, k=5))
+              cstring = str(message.from_user.id) + '-' + str(res)
+              PROCESS.append(cstring)
+              cxmsg_id = ''
             for i in range(len(listxz) & len(listxzx)):
-              REM_MSGS = offset_id-listxz[i]
-              datetime_ist = datetime.now(IST)
-              TIMEZ = f"{datetime_ist.strftime('%d %B %Y, %I:%M:%S %p')}"
-              zm = 4 * (REM_MSGS+1) / (60 * 60)
-              hr = trunc(zm)
-              mint = trunc((zm % 1) * 60)
-              secs = trunc((((zm % 1) * 60) % 1) * 60)
-              tme = f"{hr} hours {mint} minutes {secs} seconds "
-              after_time = datetime_ist + timedelta(seconds=secs, minutes=mint, hours=hr)
-              y_time = after_time.strftime('%I:%M:%S %p, %d %B %Y')
-              currentTime = get_readable_time(time() - botStartTime)
-              await msgx.edit_text('🔄Remaining: ' + str(REM_MSGS) + '\n📎Total Messages: ' + TTL_MSG + '\n\n🆔Message ID: ' + yts1 + '/' + str(listxz[i]) + '\n🔢Message No: ' + str(listxzx[i]) + f'\n\n♻EST Completion Time: {str(y_time)}\n⌛EST Remaining Time: {str(tme)}\n\n❤Bot_Alive_Time : {currentTime}\n⌚Current_Time: {str(TIMEZ)}')
-              sleep(randint(2,6))
-              await client.copy_message(
-            chat_id=to_id,
-            from_chat_id=chat_id,
-            message_id=listxz[i])
+                if cstring in PROCESS:
+                    REM_MSGS = offset_id-listxz[i]
+                    datetime_ist = datetime.now(IST)
+                    TIMEZ = f"{datetime_ist.strftime('%I:%M:%S %p, %d %B %Y')}"
+                    zm = 4 * (REM_MSGS+1) / (60 * 60)
+                    hr = trunc(zm)
+                    mint = trunc((zm % 1) * 60)
+                    secs = trunc((((zm % 1) * 60) % 1) * 60)
+                    tme = f"{hr}h{mint}m{secs}s"
+                    after_time = datetime_ist + timedelta(seconds=secs, minutes=mint, hours=hr)
+                    y_time = after_time.strftime('%I:%M:%S %p, %d %B %Y')
+                    currentTime = get_readable_time(time() - botStartTime)
+                    text = '🔄Remaining: ' + str(REM_MSGS) + '\n📎Total Messages: ' + TTL_MSG + '\n\n🆔COPYING_MSG: ' + yts1 + '/' + str(listxz[i]) + '\n🆔COPIED_MSG: ' + yts2 + '/' + str(cxmsg_id) + '\n🔢Message No: ' + str(listxzx[i]) + f'\n\n♻EST Completion Time: {str(y_time)}\n⌛EST Remaining Time: {str(tme)}\n\n❤Bot_Alive_Time : {currentTime}\n⌚Current_Time: {str(TIMEZ)}'
+                    await msgx.edit_text(text=text,reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("❌Cancel", callback_data=cstring)]]))
+                    sleep(randint(2,6))
+                    cx_msg = await client.copy_message(
+                    chat_id=to_id,
+                    from_chat_id=chat_id,
+                    message_id=listxz[i])
+                    cxmsg_id = cx_msg.id
+                    text = '🔄Remaining: ' + str(REM_MSGS) + '\n📎Total Messages: ' + TTL_MSG + '\n\n🆔COPYING_MSG: ' + yts1 + '/' + str(listxz[i]) + '\n🆔COPIED_MSG: ' + yts2 + '/' + str(cxmsg_id) + '\n🔢Message No: ' + str(listxzx[i]) + f'\n\n♻EST Completion Time: {str(y_time)}\n⌛EST Remaining Time: {str(tme)}\n\n❤Bot_Alive_Time : {currentTime}\n⌚Current_Time: {str(TIMEZ)}'
+                    await msgx.edit_text(text=text,reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("❌Cancel", callback_data=cstring)]]))
+                else:
+                    nz2 = datetime.now()
+                    duration = nz2 - nz1
+                    zmx1= duration.total_seconds()
+                    zmx = zmx1/(60 * 60)
+                    hrx = trunc(zmx)
+                    mintx = trunc((zmx % 1) * 60)
+                    secsx = trunc((((zmx % 1) * 60) % 1) * 60)
+                    ttlextime = f'{str(hrx)}h{str(mintx)}m{str(secsx)}s'
+                    await msgx.delete()
+                    text = '⛔ Cancelled By User' + '\n\n🆔MSG_ID_FROM: ' + yts1 + '/' + str(listxz[i]) + '\n\n🆔MSG_ID_TO: ' + yts2 + '/' + str(cxmsg_id) + f'\n\n⌛Total_Time: {str(ttlextime)}' + f'\n\n⌚Time: {str(TIMEZ)}'
+                    await client.send_message(chat_id=message.chat.id,text=text)
+                    return
             nz2 = datetime.now()
             duration = nz2 - nz1
             zmx1= duration.total_seconds()
@@ -102,8 +130,8 @@ async def forward(client, message):
             hrx = trunc(zmx)
             mintx = trunc((zmx % 1) * 60)
             secsx = trunc((((zmx % 1) * 60) % 1) * 60)
-            ttlextime = f'{str(hrx)} Hours, {str(mintx)} Minutes, {str(secsx)} Seconds'
-            await msgx.edit_text('✅' + TTL_MSG + ' Messages Copied Successfully\n\n' + '🆔Last Message ID : ' + str(yts1) + '/' + str(offset_id) + f'\n\n⌛Time_Taken: {str(ttlextime)}' + f'\n\n⌚Time: {str(TIMEZ)}')
+            ttlextime = f'{str(hrx)}h{str(mintx)}m{str(secsx)}s'
+            await msgx.edit_text('✅' + TTL_MSG + ' Messages Copied Successfully\n\n' + '🆔MSG_ID_FROM: ' + yts1 + '/' + str(listxz[i]) + '\n\n🆔MSG_ID_TO: ' + yts2 + '/' + str(cxmsg_id) + f'\n\n⌛Time_Taken: {str(ttlextime)}' + f'\n\n⌚Time: {str(TIMEZ)}')
           except Exception as e:
               await message.reply_text(f"```{e}```")
         else:
@@ -131,9 +159,35 @@ async def send(bot, msg):
       await bot.send_message(chat_id=user_id,
                         text=f"`/fwd {str(from_chat)} {str(start_msg_id)} {str(last_msg_id)} {str(to_chat)}`")
     except Exception as e:
-              await message.reply_text(f"```{e}```")
+              await msg.reply_text(f"```{e}```")
+              
 
-            
+@app.on_callback_query()
+async def newbt(client, callback_query):
+    if callback_query.message.chat.id in sudo_users:
+        txt = callback_query.data
+        if txt.startswith("YES"):
+            txt = txt.replace('YES', '')
+            try:
+                PROCESS.remove(txt)
+                chat_id = callback_query.message.chat.id
+                message_id = callback_query.message.id
+                await client.edit_message_text(chat_id=chat_id,
+                                               message_id=message_id,
+                                               text=f"✅Successfully Cancelled Forwarding!")
+            except Exception as e:
+              await client.send_message(chat_id=callback_query.message.chat.id,
+                                    text=f"{e}")
+        else:
+            txt = f'YES{txt}'
+            await client.send_message(chat_id=callback_query.message.chat.id,
+                                    text=f"Are You Sure?",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("❌Yes 100% Sure! Cancel Forwarding.", callback_data=txt)]]))
+
+
+
+
+
+keep_alive.keep_alive()
 
 print(f'⚡{uname} Bot Started Successfully!⚡')
 app.run()
