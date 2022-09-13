@@ -1,5 +1,4 @@
 from math import trunc
-import keep_alive
 from random import randint, choices
 from time import sleep
 from time import time
@@ -187,7 +186,6 @@ async def newbt(client, callback_query):
 
 
 
-keep_alive.keep_alive()
 
 print(f'⚡{uname} Bot Started Successfully!⚡')
 app.run()
