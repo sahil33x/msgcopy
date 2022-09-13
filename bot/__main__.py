@@ -1,5 +1,4 @@
 from math import trunc
-import keep_alive
 from random import randint
 from time import sleep
 from time import time
@@ -134,8 +133,7 @@ async def send(bot, msg):
     except Exception as e:
               await message.reply_text(f"```{e}```")
 
-
-keep_alive.keep_alive()
+            
 
 print(f'⚡{uname} Bot Started Successfully!⚡')
 app.run()
